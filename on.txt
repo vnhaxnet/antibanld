@@ -1,0 +1,1 @@
+netsh advfirewall firewall add rule name=CRNTEAM dir=out action=block protocol=TCP remoteport=0-17499,17500-34999,35001-65535,18081,3013 enable=yes
