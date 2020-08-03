@@ -1,0 +1,12 @@
+@echo off
+@cd/d "C:\XuanZhi\LDPlayer"
+@cd/d "D:\XuanZhi\LDPlayer"
+@cd/d "E:\XuanZhi\LDPlayer"
+@cd/d "F:\XuanZhi\LDPlayer"
+@cd/d "Y:\XuanZhi\LDPlayer"
+adb.exe kill-server
+adb.exe start-server
+adb.exe devices
+adb root
+adb remount
+adb install -s CRN.apk
